@@ -1134,3 +1134,88 @@ textarea {
     }
 
 }
+
+/* =========================================================
+   NEXORA PROFILE
+   ========================================================= */
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 3px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+.profile-info {
+    min-width: 0;
+}
+
+.profile-info h1 {
+    margin-bottom: 4px;
+
+    font-size: 2rem;
+
+    letter-spacing: -1px;
+}
+
+.profile-info p {
+    margin-bottom: 8px;
+}
+
+.profile-actions {
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top:
+        1px solid rgba(255, 255, 255, 0.08);
+}
+
+
+#profilePosts > h2 {
+    margin: 25px 0 15px;
+}
+
+
+@media (max-width: 600px) {
+
+    .profile-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        text-align: center;
+    }
+
+    .profile-avatar {
+        margin: auto;
+    }
+
+    .profile-info {
+        width: 100%;
+    }
+
+    .profile-info h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile-actions .btn {
+        width: 100%;
+    }
+
+}
