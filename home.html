@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home · Nexora</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <a class="brand" href="home.html">
+            <span>N</span> Nexora
+        </a>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="search.html">Search</a>
+            <a href="notifications.html">Notifications</a>
+            <a href="messages.html">Messages</a>
+            <a href="profile.html">Profile</a>
+
+            <button id="logoutBtn" class="link-btn">
+                Logout
+            </button>
+        </nav>
+
+    </header>
+
+
+    <main class="layout">
+
+        <section class="feed">
+
+            <div class="card composer">
+
+                <h2>Create post</h2>
+
+                <textarea
+                    id="postText"
+                    maxlength="500"
+                    placeholder="What's on your mind?"
+                ></textarea>
+
+                <div class="row">
+
+                    <input
+                        id="postImage"
+                        type="url"
+                        placeholder="Optional image URL"
+                    >
+
+                    <button
+                        id="postBtn"
+                        class="btn"
+                    >
+                        Post
+                    </button>
+
+                </div>
+
+                <p
+                    id="postMessage"
+                    class="message"
+                ></p>
+
+            </div>
+
+
+            <div id="feed"></div>
+
+        </section>
+
+
+        <aside class="card sidebar">
+
+            <h3>Nexora</h3>
+
+            <p class="muted">
+                Connect, share, and discover with Nexora.
+            </p>
+
+            <div id="currentUser"></div>
+
+        </aside>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="js/home.js"
+    ></script>
+
+</body>
+
+</html>

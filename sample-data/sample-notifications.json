@@ -1,0 +1,14 @@
+[
+  {
+    "message": "Rahul started following you.",
+    "type": "follow"
+  },
+  {
+    "message": "Priya liked your post.",
+    "type": "like"
+  },
+  {
+    "message": "John commented on your post.",
+    "type": "comment"
+  }
+]

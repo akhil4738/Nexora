@@ -1,0 +1,22 @@
+[
+  {
+    "id": "post-001",
+    "userId": "sample-001",
+    "username": "rahul",
+    "fullName": "Rahul Kumar",
+    "text": "Welcome to ConnectHub! \ud83d\udc4b",
+    "likesCount": 12,
+    "commentsCount": 3,
+    "createdAt": "2026-09-21T10:00:00Z"
+  },
+  {
+    "id": "post-002",
+    "userId": "sample-002",
+    "username": "priya",
+    "fullName": "Priya Sharma",
+    "text": "Building something new today. \ud83d\ude80",
+    "likesCount": 25,
+    "commentsCount": 8,
+    "createdAt": "2026-09-21T08:00:00Z"
+  }
+]

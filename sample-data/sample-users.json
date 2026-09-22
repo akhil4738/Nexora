@@ -1,0 +1,29 @@
+[
+  {
+    "uid": "sample-001",
+    "fullName": "Rahul Kumar",
+    "username": "rahul",
+    "email": "rahul@example.com",
+    "bio": "Java developer \ud83d\ude80",
+    "followersCount": 120,
+    "followingCount": 85
+  },
+  {
+    "uid": "sample-002",
+    "fullName": "Priya Sharma",
+    "username": "priya",
+    "email": "priya@example.com",
+    "bio": "Designer & creator \u2728",
+    "followersCount": 240,
+    "followingCount": 110
+  },
+  {
+    "uid": "sample-003",
+    "fullName": "Demo User",
+    "username": "demo",
+    "email": "demo@example.com",
+    "bio": "Exploring ConnectHub.",
+    "followersCount": 25,
+    "followingCount": 18
+  }
+]

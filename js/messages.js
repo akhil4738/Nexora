@@ -1,0 +1,1 @@
+import { $, escapeHtml } from "./utils.js"; import { requireAuth } from "./auth.js"; await requireAuth();const data=[["Rahul","Hey! How are you?"],["Priya","Let's build something! 🚀"],["John","See you tomorrow."]];$("messages").innerHTML=data.map(x=>`<div class="message-item"><strong>${escapeHtml(x[0])}</strong><div class="muted">${escapeHtml(x[1])}</div></div>`).join("");
