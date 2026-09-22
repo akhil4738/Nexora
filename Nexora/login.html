@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login · Nexora</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="auth-page">
+
+        <form id="loginForm" class="card form-card">
+
+            <h1>Welcome back</h1>
+
+            <p class="muted">
+                Sign in to Nexora
+            </p>
+
+
+            <!-- Email -->
+            <label>
+                Email
+
+                <input
+                    id="email"
+                    type="email"
+                    required
+                    placeholder="you@example.com"
+                >
+            </label>
+
+
+            <!-- Password -->
+            <label>
+                Password
+
+                <input
+                    id="password"
+                    type="password"
+                    required
+                    minlength="6"
+                    placeholder="••••••••"
+                >
+            </label>
+
+
+            <!-- Email Login -->
+            <button
+                class="btn"
+                type="submit"
+            >
+                Login
+            </button>
+
+
+            <!-- Divider -->
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+
+            <!-- Google Login -->
+            <button
+                type="button"
+                id="googleLoginBtn"
+                class="google-btn"
+            >
+
+                <span class="google-icon">
+                    G
+                </span>
+
+                Continue with Google
+
+            </button>
+
+
+            <!-- Message -->
+            <p
+                id="message"
+                class="message"
+            ></p>
+
+
+            <!-- Register -->
+            <p class="center">
+
+                Don't have an account?
+
+                <a href="register.html">
+                    Create one
+                </a>
+
+            </p>
+
+        </form>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="js/login.js"
+    ></script>
+
+</body>
+
+</html>

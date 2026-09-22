@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Edit Profile · Nexora</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="auth-page">
+
+        <form
+            id="editForm"
+            class="card form-card"
+        >
+
+            <h1>
+                Edit profile
+            </h1>
+
+
+            <label>
+                Full name
+
+                <input
+                    id="fullName"
+                    required
+                >
+            </label>
+
+
+            <label>
+                Username
+
+                <input
+                    id="username"
+                    required
+                >
+            </label>
+
+
+            <label>
+                Bio
+
+                <textarea
+                    id="bio"
+                    maxlength="160"
+                ></textarea>
+            </label>
+
+
+            <label>
+                Profile image URL
+
+                <input
+                    id="profileImage"
+                    type="url"
+                    placeholder="https://..."
+                >
+            </label>
+
+
+            <button
+                class="btn"
+                type="submit"
+            >
+                Save changes
+            </button>
+
+
+            <p
+                id="message"
+                class="message"
+            ></p>
+
+
+            <a href="profile.html">
+                Back to profile
+            </a>
+
+        </form>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="js/profile.js"
+    ></script>
+
+</body>
+
+</html>

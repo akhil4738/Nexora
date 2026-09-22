@@ -1,0 +1,1 @@
+import { $, escapeHtml } from "./utils.js"; import { requireAuth } from "./auth.js"; await requireAuth();const data=["Rahul started following you.","Priya liked your post.","John commented on your post."];$("notifications").innerHTML=data.map(x=>`<div class="notification">🔔 ${escapeHtml(x)}</div>`).join("");

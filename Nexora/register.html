@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Create Account · Nexora</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="auth-page">
+
+        <form
+            id="registerForm"
+            class="card form-card"
+        >
+
+            <h1>Create account</h1>
+
+            <p class="muted">
+                Join Nexora
+            </p>
+
+
+            <!-- Full Name -->
+
+            <label>
+                Full name
+
+                <input
+                    id="fullName"
+                    required
+                    placeholder="Your name"
+                >
+            </label>
+
+
+            <!-- Username -->
+
+            <label>
+                Username
+
+                <input
+                    id="username"
+                    required
+                    minlength="3"
+                    placeholder="username"
+                >
+            </label>
+
+
+            <!-- Email -->
+
+            <label>
+                Email
+
+                <input
+                    id="email"
+                    type="email"
+                    required
+                    placeholder="you@example.com"
+                >
+            </label>
+
+
+            <!-- Password -->
+
+            <label>
+                Password
+
+                <input
+                    id="password"
+                    type="password"
+                    required
+                    minlength="6"
+                    placeholder="Minimum 6 characters"
+                >
+            </label>
+
+
+            <!-- Confirm Password -->
+
+            <label>
+                Confirm password
+
+                <input
+                    id="confirmPassword"
+                    type="password"
+                    required
+                    minlength="6"
+                    placeholder="Re-enter password"
+                >
+            </label>
+
+
+            <!-- Email Registration -->
+
+            <button
+                class="btn"
+                type="submit"
+            >
+                Create Account
+            </button>
+
+
+            <!-- Divider -->
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+
+            <!-- Google Registration -->
+
+            <button
+                type="button"
+                id="googleRegisterBtn"
+                class="google-btn"
+            >
+
+                <span class="google-icon">
+                    G
+                </span>
+
+                Continue with Google
+
+            </button>
+
+
+            <!-- Message -->
+
+            <p
+                id="message"
+                class="message"
+            ></p>
+
+
+            <!-- Login -->
+
+            <p class="center">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </p>
+
+        </form>
+
+    </main>
+
+
+    <script
+        type="module"
+        src="js/register.js"
+    ></script>
+
+</body>
+
+</html>
