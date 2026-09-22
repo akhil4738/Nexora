@@ -3,32 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>Profile · Nexora</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
 </head>
 
 <body>
 
     <header class="topbar">
 
-        <a class="brand" href="home.html">
-            <span>N</span> Nexora
+        <a
+            class="brand"
+            href="home.html"
+        >
+            <span>N</span>
+            Nexora
         </a>
 
+
         <nav>
-            <a href="home.html">Home</a>
-            <a href="search.html">Search</a>
-            <a href="messages.html">Messages</a>
+
+            <a href="home.html">
+                Home
+            </a>
+
+            <a href="search.html">
+                Search
+            </a>
+
+            <a href="messages.html">
+                Messages
+            </a>
 
             <button
                 id="logoutBtn"
                 class="link-btn"
+                type="button"
             >
                 Logout
             </button>
+
         </nav>
 
     </header>
@@ -36,12 +59,20 @@
 
     <main class="profile-wrap">
 
+        <!-- Profile -->
         <section
             id="profile"
             class="card profile-card"
-        ></section>
+        >
+
+            <p class="muted">
+                Loading profile...
+            </p>
+
+        </section>
 
 
+        <!-- User Posts -->
         <section
             id="profilePosts"
         ></section>
